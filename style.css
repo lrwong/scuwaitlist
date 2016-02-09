@@ -1,0 +1,167 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #eee !important;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.header{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-left: 30px;
+	margin-bottom: 45px;
+	background-color: #f15050;
+	padding-bottom: 10px;
+}
+.header h1{
+	font-size: 25pt;
+}
+.header p{
+	font-size: 15pt;
+}
+.container .form, .container form{
+	padding: 0;
+	display: flex;
+	font-size: 12pt;
+	box-shadow: 5px 5px 2px gray;
+	border: solid 1px black;
+	border-radius: 4px;
+	background-color: white;
+}
+.left{
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border-right: solid 1px black;
+	width: 250px;
+}
+.leftItem{
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+}
+select{
+	min-width: 60%;
+	margin-bottom: 0;
+	max-width: 175px;
+}
+.right{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+}
+.info{
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 750px;
+}
+.info div{
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.info label{
+	margin-bottom: 10px;
+	width: 90px;
+	margin-right: 15px;
+}
+.info input{
+	margin: 0;
+	padding: 0;
+}
+.below{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+.below textarea{
+	width: 100%;
+}
+.text-center{
+	margin-top: 10px;
+}
+.waitlist table{
+	margin: 10px;
+	border: solid 1pt black;
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.waitlist td{
+	border: black 1px solid;
+	padding-left: 2px;
+	padding-right: 2px;
+	border-collapse: collapse;
+}
+.waitlist th{
+	border: black 1px solid;
+	text-align: center;
+	border-collapse: collapse;
+	font-weight: bold;
+}
+.waitlist{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.g-recaptcha{
+	margin-right: auto;
+	margin-left: auto;
+	width: 305px;
+	margin-top: 25px;
+}
+.loading-message {
+	text-align: center;
+	margin-top: 3em;
+}
+#quarter{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	text-align: center;
+}

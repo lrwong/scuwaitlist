@@ -1,1 +1,1 @@
-# scuwaitlist
+# scu-waitlist
